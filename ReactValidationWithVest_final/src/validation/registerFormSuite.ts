@@ -30,7 +30,7 @@ export const suite = create(
     });
 
     test("password", "must be at least 5 characters", () => {
-      enforce(password).longerThanOrEquals(5); // TODO: must contain a number
+      enforce(password).longerThanOrEquals(5);
     });
 
     test("passwordConfirmation", "must match password", () => {
